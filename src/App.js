@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaGithub, FaEnvelope, FaRocket, FaBrain, FaCode, FaExternalLinkAlt, FaDownload } from "react-icons/fa";
 import { SiCplusplus, SiPython, SiReact, SiNodedotjs, SiMongodb } from "react-icons/si";
@@ -26,7 +26,7 @@ const Portfolio = () => {
     setChatMessages(p => [...p, { role: "user", text: msg }]);
     setChatLoading(true);
     try {
-      const res = await fetch("http://localhost:3001/api/chat", {
+      const res = await fetch("https://ai-portfolio-qt8z.onrender.com/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: msg })
