@@ -10,7 +10,7 @@
 
 ## 📸 Screenshot
 
-![Portfolio Dashboard](https://raw.githubusercontent.com/snehal-thombare08/AI-Portfolio-Frontend/main/Screenshot%202026-06-02%20000136.png)
+![Portfolio Dashboard](https://raw.githubusercontent.com/binarymind-dev/AI-Portfolio-Frontend/main/Screenshot%202026-06-02%20000136.png)
 
 ---
 
@@ -38,7 +38,7 @@
 ## ⚙️ Setup
 
 ```bash
-git clone https://github.com/snehal-thombare08/AI-Portfolio-Frontend.git
+git clone https://github.com/binarymind-dev/AI-Portfolio-Frontend.git
 cd AI-Portfolio-Frontend
 npm install
 ```
@@ -56,4 +56,4 @@ npm start
 
 ## 👩‍💻 Author
 
-**Snehal Thombare** — [GitHub](https://github.com/snehal-thombare08)
+**Binary Mind** — [GitHub](https://github.com/binarymind-dev)
